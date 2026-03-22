@@ -1,4 +1,4 @@
-# User Funnel Analysis — Claude.ai Growth
+# User Funnel Analysis - Claude.ai Growth
 
 ## Hypothesis
 Users are dropping off between activation and revenue conversion.
