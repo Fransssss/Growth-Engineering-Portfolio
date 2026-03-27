@@ -16,6 +16,7 @@ SQL funnel analysis on user_events table (SQLite)
 Investigate session depth differences between converters and non-converters.
 
 ## Resume Bullet
-Analyzed 10-user onboarding funnel revealing 70% activation rate and 30% revenue 
-conversion rate using SQL, identifying drop-off between activation and revenue 
+- Analyzed 10-user onboarding funnel revealing 70% activation rate and 30% revenue conversion rate using SQL, identifying drop-off between activation and revenue 
 as the primary growth opportunity.
+
+- Designed and executed an A/B test simulation in Python revealing a 10 percentage point activation rate lift (43% → 53%) across 4,386 simulated users using scipy and pandas.
