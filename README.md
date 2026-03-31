@@ -20,3 +20,5 @@ Investigate session depth differences between converters and non-converters.
 as the primary growth opportunity.
 
 - Designed and executed an A/B test simulation in Python revealing a 10 percentage point activation rate lift (43% → 53%) across 4,386 simulated users using scipy and pandas.
+
+- Built end-to-end retention analysis across 4 user cohorts using Python, identifying 70% activation drop-off and declining Month 2 retention, and recommended a Day 1 prompt sequence A/B test to raise the retention floor.
