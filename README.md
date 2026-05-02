@@ -1,24 +1,35 @@
-# User Funnel Analysis - Claude.ai Growth
+# Growth Engineering Portfolio
 
-## Hypothesis
-Users are dropping off between activation and revenue conversion.
+Built during a structured 3-month curriculum preparing for a 
+growth engineering role at an AI company (targeting Anthropic's 
+Claude.ai growth team).
 
-## Method
-SQL funnel analysis on user_events table (SQLite)
+## Projects
 
-## Findings
-- 10 users analyzed
-- 70% activation rate (sent_message)
-- 30% revenue conversion rate (upgraded_to_pro)
-- Biggest drop-off: activation → revenue
+### 1. User Funnel Analysis (SQL)
+Identified 70% activation rate and 30% revenue conversion rate, 
+pinpointing activation-to-revenue drop-off as primary growth opportunity.
+[View project](./01-funnel-analysis/)
 
-## Recommendation
-Investigate session depth differences between converters and non-converters.
+### 2. A/B Test Simulation (Python)
+Designed and simulated welcome prompt experiment revealing 
++10pp activation lift (43% → 53%) across 4,386 users.
+[View project](./02-ab-test-simulation/)
 
-## Resume Bullet
-- Analyzed 10-user onboarding funnel revealing 70% activation rate and 30% revenue conversion rate using SQL, identifying drop-off between activation and revenue 
-as the primary growth opportunity.
+### 3. Cohort Retention Analysis (Python + SQL)
+Built 4-cohort retention grid identifying declining Month 2 
+retention and recommended Day 1 prompt sequence intervention.
+[View project](./03-cohort-retention-analysis/)
 
-- Designed and executed an A/B test simulation in Python revealing a 10 percentage point activation rate lift (43% → 53%) across 4,386 simulated users using scipy and pandas.
+### 4. Growth System Simulation (Python)
+End-to-end experiment simulation producing +12.2% activation 
+and +7.05% Day 7 retention lift.
+[View project](./04-growth-system-simulation/)
 
-- Built end-to-end retention analysis across 4 user cohorts using Python, identifying 70% activation drop-off and declining Month 2 retention, and recommended a Day 1 prompt sequence A/B test to raise the retention floor.
+## Skills
+SQL · Python · pandas · scipy · statsmodels · matplotlib · seaborn
+A/B Testing · Cohort Analysis · Funnel Analysis · Growth Loops
+Experimentation Platforms · Feature Flags · AI Product Metrics
+
+## Target Role
+Growth Engineer - AI Products (Claude.ai)
