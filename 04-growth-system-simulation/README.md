@@ -1,22 +1,50 @@
-# Growth System Simulation - Claude.ai Growth
+# Fransiskus Agapa
+### Growth Engineering Portfolio
 
-## Problem
-Is the new onboarding features actually improving activation and retention, how do we measure it reliably end-to-end?
+**Computer Science** · Expected Graduation: August 2026  
+[LinkedIn](https://www.linkedin.com/in/fransiskus-agapa) · [GitHub](https://github.com/Fransssss/Growth-Engineering-Portfolio)
 
-## Hypothesis
-if 50% of new users are given a new onboarding feature, then activation rate and day 7 retention will increase compate to control, because the feature reduces friciton in the first session.
+---
 
-## Method
-Used hashlib for Assignment service, simulated feature flag, detected SRM detection with scipy, measured activation and day 7 retention then visualization with matplotlib.
+## About
+New grad software engineer specializing in growth engineering for AI products. 
+This portfolio documents a structured 3-month curriculum building toward a 
+growth engineering role at an AI company specifically targeting Anthropic's 
+Claude.ai growth team.
 
-## Key Findings
-- Treatment activation (53.1%) is 12.2 % more than control activation rate (40.9%)
-- Treatment day 7 retention (16.6%) is 7% higher than control day day 7 retention (9.6%).
-- Experiment is valid given clean SRM (501 control / 499 treatment)
-- Both primary and secondary metrics moved in the right direction. 
+---
 
-## Recommendation
-Ship the feature flag for new onboarding feature then figure out which specific setup drive the growth increase.
+## Projects
 
-## Resume Bullet
-Simulated end-to-end growth experiment including feature flag assignment, SRM detection, revealing +12.2pp activation and +7pp Day 7 retention lift using Python, hashlib, scipy and matplotlib. 
+### 1. User Funnel Analysis (SQL)
+Identified 70% activation rate and 30% revenue conversion rate, pinpointing 
+activation-to-revenue drop-off as the primary growth opportunity.  
+[View Project](./01-funnel-analysis/)
+
+### 2. A/B Test Simulation (Python)
+Designed and simulated a welcome prompt experiment revealing +10pp activation 
+lift (43% → 53%) across 4,386 simulated users with p < 0.05.  
+[View Project](./02-ab-test-simulation/)
+
+### 3. Cohort Retention Analysis (Python + SQL)
+Built 4-cohort retention grid identifying declining Month 2 retention and 
+18% retention floor, recommended Day 1 prompt sequence intervention.  
+[View Project](./03-cohort-retention-analysis/)
+
+### 4. Growth System Simulation (Python)
+End-to-end experiment simulation with feature flags, SRM detection, and 
+metric measurement — revealing +12.2pp activation and +7pp Day 7 retention lift.  
+[View Project](./04-growth-system-simulation/)
+
+---
+
+## Skills
+**Languages:** Python · SQL  
+**Libraries:** pandas · scipy · statsmodels · matplotlib · seaborn  
+**Growth:** A/B Testing · Cohort Analysis · Funnel Analysis · Feature Flags  
+**Concepts:** Experimentation Platforms · Growth Loops · AI Product Metrics · Retention Analysis
+
+---
+
+## Target Role
+Growth Engineer — AI Products (Claude.ai · Anthropic)
