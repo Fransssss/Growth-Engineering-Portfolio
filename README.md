@@ -1,4 +1,6 @@
 # Fransiskus Agapa
+<img width="1024" height="1024" alt="Gemini_Generated_Image_j53l49j53l49j53l" src="https://github.com/user-attachments/assets/6430fa74-8ffc-460b-a0fd-e0155212045c" />
+
 ### Growth Engineering Portfolio
 
 **Computer Science** · Expected Graduation: August 2026  
